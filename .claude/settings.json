@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "f=\"$CLAUDE_PROJECT_DIR/scripts/stop_hook.py\"; [ -f \"$f\" ] || exit 0; python3 \"$f\"",
+            "timeout": 30,
+            "statusMessage": "Validazione del vault…"
+          }
+        ]
+      }
+    ]
+  }
+}

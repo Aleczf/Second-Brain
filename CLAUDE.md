@@ -76,6 +76,8 @@ Script (dalla root del vault):
 - `python3 scripts/validate.py --fix-index` — rigenera gli `_index` dai `summary`.
 - `python3 scripts/build_index.py` — rigenera `llms.txt` e la tabella progetti di `HOME.md` (`--check`: solo verifica).
 - `python3 scripts/test_vault.py` — test degli script (dopo ogni modifica a `scripts/`).
+Hook `Stop` (`.claude/settings.json` → `scripts/stop_hook.py`): se ci sono `.md` modificati e `validate.py`
+è rosso, blocca la fine della risposta e passa gli errori a Claude (una volta sola).
 Sequenza standard dopo aver scritto note: `build_index.py` → `validate.py --fix-index` (verde) → commit.
 
 Skill (`.claude/skills/`):
