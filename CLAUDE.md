@@ -74,7 +74,9 @@ Per cercare senza aprire file: `llms.txt` (percorso + summary di ogni nota).
 Script (dalla root del vault):
 - `python3 scripts/validate.py` — frontmatter, link rotti, orfane, link verso `private/`.
 - `python3 scripts/validate.py --fix-index` — rigenera gli `_index` dai `summary`.
-- `python3 scripts/build_index.py` — rigenera `llms.txt` e la tabella progetti di `HOME.md`.
+- `python3 scripts/build_index.py` — rigenera `llms.txt` e la tabella progetti di `HOME.md` (`--check`: solo verifica).
+- `python3 scripts/test_vault.py` — test degli script (dopo ogni modifica a `scripts/`).
+Sequenza standard dopo aver scritto note: `validate.py --fix-index` → `build_index.py` → commit.
 
 Skill (`.claude/skills/`):
 - `capture` — "annota …", "idea: …", "todo: …" → nota in `inbox/`, senza domande.

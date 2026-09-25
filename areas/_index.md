@@ -12,8 +12,8 @@ updated: 2026-09-25
 Un'area è una nota; diventa una cartella quando accumula più di 3 note collegate.
 
 <!-- index:start -->
-- [[areas/business|Business]] — Posizionamento, offerta, pricing, pipeline commerciale.
-- [[areas/fiscale-amministrazione|Fiscale e amministrazione]] — Fatturazione, scadenze fiscali, contabilità, contratti.
-- [[areas/formazione|Formazione]] — Studio, corsi, competenze da sviluppare.
-- [[areas/personale|Personale]] — Salute, abitudini, obiettivi personali.
+- [[areas/business|Business]] — Area di responsabilità continua: posizionamento, offerta, pricing, pipeline commerciale. Leggila per standard da mantenere e attività in corso.
+- [[areas/fiscale-amministrazione|Fiscale e amministrazione]] — Area di responsabilità continua: fatturazione, scadenze fiscali, contabilità, contratti. Leggila per standard da mantenere e attività in corso.
+- [[areas/formazione|Formazione]] — Area di responsabilità continua: studio, corsi, competenze da sviluppare. Leggila per standard da mantenere e attività in corso.
+- [[areas/personale|Personale]] — Area di responsabilità continua: salute, abitudini, obiettivi personali. Leggila per standard da mantenere e attività in corso.
 <!-- index:end -->

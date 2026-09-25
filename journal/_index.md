@@ -12,6 +12,6 @@ updated: 2026-09-25
 Daily scritte dalla skill `daily`, weekly dalla skill `weekly`.
 
 <!-- index:start -->
-- [[journal/daily/_index|Daily]] — Una nota per giornata lavorativa.
-- [[journal/weekly/_index|Weekly]] — Una review per settimana ISO.
+- [[journal/daily/_index|Daily]] — Indice delle note giornaliere, una per giornata lavorativa.
+- [[journal/weekly/_index|Weekly]] — Indice delle review settimanali, una per settimana ISO.
 <!-- index:end -->

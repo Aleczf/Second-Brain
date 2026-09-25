@@ -12,5 +12,5 @@ updated: 2026-09-25
 Il materiale riservato dei clienti sta in `private/` e non si linka da qui.
 
 <!-- index:start -->
-- [[clients/galeota|Galeota]] — Cliente pilota di Controllo Costi Fatture Passive.
+- [[clients/galeota|Galeota]] — Scheda cliente Galeota: contesto, progetti attivi e condizioni. Cliente pilota di Controllo Costi Fatture Passive.
 <!-- index:end -->

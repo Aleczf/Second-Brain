@@ -13,14 +13,14 @@ updated: 2026-09-25
 <!-- projects:start -->
 | Progetto | Status | In una riga | Aggiornato |
 |---|---|---|---|
-| [[projects/sofia/stato\|Sofia]] | active | TODO | 2026-09-25 |
-| [[projects/controllo-costi-fatture-passive/stato\|Controllo Costi Fatture Passive]] | active | TODO | 2026-09-25 |
 | [[projects/coldreach/stato\|coldreach]] | active | TODO | 2026-09-25 |
-| [[projects/prisma/stato\|Prisma]] | active | TODO | 2026-09-25 |
-| [[projects/portfolio-diagnoser/stato\|Portfolio + Diagnoser]] | active | TODO | 2026-09-25 |
-| [[projects/wineguard-tech/stato\|WineGuard Tech]] | active | TODO | 2026-09-25 |
+| [[projects/controllo-costi-fatture-passive/stato\|Controllo Costi Fatture Passive]] | active | TODO | 2026-09-25 |
 | [[projects/nolo-hub-palatum/stato\|Nolo Hub / Palatum]] | active | TODO | 2026-09-25 |
+| [[projects/portfolio-diagnoser/stato\|Portfolio + Diagnoser]] | active | TODO | 2026-09-25 |
+| [[projects/prisma/stato\|Prisma]] | active | TODO | 2026-09-25 |
+| [[projects/sofia/stato\|Sofia]] | active | TODO | 2026-09-25 |
 | [[projects/the-provenance-letter/stato\|The Provenance Letter]] | active | TODO | 2026-09-25 |
+| [[projects/wineguard-tech/stato\|WineGuard Tech]] | active | TODO | 2026-09-25 |
 <!-- projects:end -->
 
 ## Sezioni
