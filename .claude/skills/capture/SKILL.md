@@ -34,7 +34,7 @@ Obiettivo: zero attrito. **Non fare domande**, non chiedere conferme, non smista
      es. `"[[projects/sofia/stato]]"`, e il tag slug del progetto. Nessuna corrispondenza certa → `related: []`.
    - Password, token, IBAN o dati riservati di clienti: **non** scriverli nella nota; salva il resto e
      avvisa in una riga che vanno messi in `private/`.
-5. `python3 scripts/validate.py --fix-index -q` (aggiunge la nota a `inbox/_index.md`).
+5. `python3 scripts/build_index.py && python3 scripts/validate.py --fix-index -q` (aggiunge la nota a `inbox/_index.md` e a `llms.txt`).
    Se fallisce per colpa della nuova nota, correggila.
 6. Non fare commit (lo fa `daily`).
 

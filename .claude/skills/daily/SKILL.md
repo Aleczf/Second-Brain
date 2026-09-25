@@ -1,6 +1,6 @@
 ---
 name: daily
-description: Chiusura di giornata. Usala quando l'utente scrive "fine giornata" (o "chiudi la giornata", "daily"). Riassume cosa è cambiato nel vault oggi via git, aggiorna gli stato.md toccati, scrive journal/daily/YYYY-MM-DD.md, lancia validate e build_index e fa il commit.
+description: Chiusura di giornata. Usala quando l'utente scrive "fine giornata" (o "chiudi la giornata", "daily"). Riassume cosa è cambiato nel vault oggi via git, aggiorna gli stato.md toccati, scrive journal/daily/YYYY-MM-DD.md, lancia build_index e validate e fa il commit.
 ---
 
 # daily — fine giornata
@@ -27,8 +27,8 @@ description: Chiusura di giornata. Usala quando l'utente scrive "fine giornata" 
      come **elenco semplice senza checkbox** con link alla nota sorgente (i task vivono solo lì,
      così la weekly non li conta due volte);
    - `related`: gli `stato.md` dei progetti toccati.
-6. `python3 scripts/validate.py --fix-index` → deve essere verde (correggi gli errori, non aggirarli),
-   poi `python3 scripts/build_index.py`.
+6. `python3 scripts/build_index.py`, poi `python3 scripts/validate.py --fix-index` → deve essere verde
+   (correggi gli errori, non aggirarli). Prima build_index: HOME deve essere aggiornata prima di validarla.
 7. **Commit**: `git add -A && git commit -m "daily: OGGI — <sintesi in max 8 parole>"`.
    Controlla prima con `git status` che non ci sia nulla sotto `private/` o `.env`.
    Push solo se l'utente lo ha chiesto o se è la prassi concordata per questo vault.

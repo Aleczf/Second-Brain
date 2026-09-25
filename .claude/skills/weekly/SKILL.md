@@ -39,7 +39,7 @@ description: Review settimanale del vault. Usala quando l'utente scrive "review 
    "Com'è andata" e "Focus prossima settimana" solo da ciò che risulta dal vault o dice l'utente
    (altrimenti `TODO:`).
 
-6. `python3 scripts/validate.py --fix-index` (verde) → `python3 scripts/build_index.py` →
+6. `python3 scripts/build_index.py` → `python3 scripts/validate.py --fix-index` (verde) →
    `git add -A && git commit -m "weekly: SETT"` (controlla che `private/` resti fuori).
 
 ## Risposta

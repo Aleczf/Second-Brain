@@ -28,7 +28,7 @@ description: Registra una decisione come ADR. Usala quando l'utente scrive "deci
      raggiungibili dall'`_index` del progetto);
    - se le conseguenze cambiano "Prossimo passo" o "Blocchi", proponi la modifica e applicala se confermata;
    - `updated` = oggi.
-6. `python3 scripts/validate.py --fix-index -q && python3 scripts/build_index.py`. Correggi gli errori.
+6. `python3 scripts/build_index.py && python3 scripts/validate.py --fix-index -q`. Correggi gli errori.
    Non fare commit (lo fa `daily`), salvo richiesta esplicita.
 
 ## Risposta

@@ -76,7 +76,7 @@ Script (dalla root del vault):
 - `python3 scripts/validate.py --fix-index` — rigenera gli `_index` dai `summary`.
 - `python3 scripts/build_index.py` — rigenera `llms.txt` e la tabella progetti di `HOME.md` (`--check`: solo verifica).
 - `python3 scripts/test_vault.py` — test degli script (dopo ogni modifica a `scripts/`).
-Sequenza standard dopo aver scritto note: `validate.py --fix-index` → `build_index.py` → commit.
+Sequenza standard dopo aver scritto note: `build_index.py` → `validate.py --fix-index` (verde) → commit.
 
 Skill (`.claude/skills/`):
 - `capture` — "annota …", "idea: …", "todo: …" → nota in `inbox/`, senza domande.
