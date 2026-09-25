@@ -25,6 +25,8 @@ Il bot gira in locale; nessun ambiente di produzione scelto.
 - [x] Scegliere dove ospitare il bot 📅 2026-09-20
 - [ ] Scrivere lo script di deploy sul VPS
 - [ ] Scrivere i test del modulo invio 📅 2026-09-22
+- [ ] Scrivere la documentazione del progetto 📅 2026-09-28
+- [ ] Valutare [[projects/progetto-esempio/riepilogo-settimanale-email|riepilogo settimanale via email]]
 
 ## Blocchi e rischi
 TODO:

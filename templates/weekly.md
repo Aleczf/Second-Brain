@@ -22,4 +22,4 @@ TODO:
 TODO:
 
 ## Focus prossima settimana
-- [ ] TODO:
+- TODO:

@@ -19,4 +19,4 @@ TODO:
 TODO:
 
 ## Da fare domani
-- [ ] TODO:
+- TODO:

@@ -28,8 +28,9 @@ description: Review settimanale del vault. Usala quando l'utente scrive "review 
    la più recente tra `updated` e `git log -1 --format=%cs -- projects/<slug>/`.
    Oltre 14 giorni → segnala `progetto · giorni · prossimo passo`, e chiedi se metterlo in `paused`.
 
-4. **TODO scaduti**: task aperti con scadenza passata, esclusi `templates/` e `private/`:
-   `grep -rnE -- '- \[ \] .*📅 [0-9]{4}-[0-9]{2}-[0-9]{2}' --include=*.md --exclude-dir=templates --exclude-dir=private .`
+4. **TODO scaduti**: task aperti con scadenza passata, esclusi `templates/`, `private/` e `journal/`
+   (il journal cita i task ma non ne è la fonte):
+   `grep -rnE --include='*.md' --exclude-dir=templates --exclude-dir=private --exclude-dir=journal -e '- \[ \] .*📅 [0-9]{4}-[0-9]{2}-[0-9]{2}' .`
    e tieni quelli con data < OGGI. Elenca `task · scadenza · nota`.
    Segnala a parte gli `stato.md` con "In una riga" ancora `TODO:`.
 

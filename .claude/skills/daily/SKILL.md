@@ -23,7 +23,9 @@ description: Chiusura di giornata. Usala quando l'utente scrive "fine giornata" 
    - `## Cosa è cambiato`: 3-8 punti concreti, con wikilink a percorso completo alle note toccate;
    - `## Progetti toccati`: un punto per progetto;
    - `## Decisioni prese`: ADR create oggi (o "Nessuna");
-   - `## Da fare domani`: task aperti dai "Prossimo passo" dei progetti toccati + todo catturati oggi;
+   - `## Da fare domani`: task aperti dai "Prossimo passo" dei progetti toccati + todo catturati oggi,
+     come **elenco semplice senza checkbox** con link alla nota sorgente (i task vivono solo lì,
+     così la weekly non li conta due volte);
    - `related`: gli `stato.md` dei progetti toccati.
 6. `python3 scripts/validate.py --fix-index` → deve essere verde (correggi gli errori, non aggirarli),
    poi `python3 scripts/build_index.py`.

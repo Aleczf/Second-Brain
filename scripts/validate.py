@@ -151,10 +151,12 @@ def entry(n: v.Note) -> str:
 
 def fix_indexes(root: Path, today: str) -> list[Path]:
     notes = v.load_notes(root)
+    children = children_of(notes)
     changed = []
-    for parent, kids in children_of(notes).items():
-        if parent == "HOME":
-            continue  # la sezione di HOME è gestita a mano (e da build_index.py)
+    # Tutti gli _index, anche quelli rimasti senza note (es. inbox appena svuotata).
+    # HOME è escluso: le sue sezioni sono scritte a mano e da build_index.py.
+    for parent in sorted(n.key for n in notes if n.is_index):
+        kids = children.get(parent, [])
         base = Path(parent).parent
         lines: list[str] = []
         for sub, items in ordered_groups(kids, base):

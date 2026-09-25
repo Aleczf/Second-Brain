@@ -12,6 +12,7 @@ updated: 2026-09-25
 Progetto fittizio per il test delle skill. Da cancellare.
 
 <!-- index:start -->
+- [[projects/progetto-esempio/riepilogo-settimanale-email|Riepilogo settimanale via email nel progetto esempio]] — Idea (catturata il 2026-09-25): aggiungere al progetto esempio un riepilogo settimanale via email. Da valutare.
 - [[projects/progetto-esempio/stato|Progetto Esempio — stato]] — Stato corrente di Progetto Esempio: obiettivo, avanzamento, prossimo passo e blocchi. Leggila per prima quando riprendi il progetto.
 
 **decisioni/**

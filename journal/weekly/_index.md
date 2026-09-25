@@ -12,5 +12,5 @@ updated: 2026-09-25
 Generato da `validate.py --fix-index`.
 
 <!-- index:start -->
-_Nessuna nota._
+- [[journal/weekly/2026-W39|Weekly 2026-W39]] — Review della settimana 2026-W39: inbox smistata, progetti fermi, TODO scaduti, focus.
 <!-- index:end -->

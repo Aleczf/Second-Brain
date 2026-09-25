@@ -84,6 +84,15 @@ class VaultTest(unittest.TestCase):
         self.fix()
         self.assertEqual(before, {p: p.read_text() for p in self.tmp.rglob("_index.md")})
 
+    def test_fix_index_svuota_indice_senza_note(self):
+        p = self.write("inbox/2026-09-25-1200-idea.md", type_="inbox")
+        self.fix()
+        p.unlink()
+        self.assertError("wikilink rotto")
+        self.fix()
+        self.assertEqual(self.errors(), [])
+        self.assertIn("_Nessuna nota._", (self.tmp / "inbox/_index.md").read_text())
+
     def test_frontmatter_a_blocchi_stile_obsidian(self):
         p = self.tmp / "resources/blocchi.md"
         p.write_text('---\ntitle: Blocchi\nsummary: "x"\ntype: resource\nstatus: active\n'
