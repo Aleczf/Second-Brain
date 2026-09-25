@@ -12,5 +12,5 @@ updated: 2026-09-25
 Generato da `validate.py --fix-index`.
 
 <!-- index:start -->
-_Nessuna nota._
+- [[journal/daily/2026-09-25|Daily 2026-09-25]] — Cosa è cambiato nel vault il 2026-09-25: costruzione del second brain (fasi 1-3) e test delle skill sul progetto esempio.
 <!-- index:end -->

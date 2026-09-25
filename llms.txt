@@ -11,6 +11,8 @@
 
 ## Inbox
 
+- inbox/2026-09-25-2240-documentazione-progetto-esempio.md: todo catturato il 2026-09-25: scrivere la documentazione del progetto esempio entro lunedì 28/09. Da smistare.
+- inbox/2026-09-25-2240-riepilogo-settimanale-email.md: idea catturata il 2026-09-25: aggiungere al progetto esempio un riepilogo settimanale via email. Da smistare.
 - inbox/_index.md: Note catturate al volo in attesa di smistamento. Svuotarla nella review settimanale.
 
 ## Progetti
@@ -26,6 +28,9 @@
 - projects/portfolio-diagnoser/stato.md: Stato corrente di Portfolio + Diagnoser: obiettivo, avanzamento, prossimo passo e blocchi. Leggila per prima quando riprendi il progetto.
 - projects/prisma/_index.md: Automazione timesheet. Indice di stato, decisioni e note.
 - projects/prisma/stato.md: Stato corrente di Prisma: obiettivo, avanzamento, prossimo passo e blocchi. Leggila per prima quando riprendi il progetto.
+- projects/progetto-esempio/_index.md: ESEMPIO fittizio per testare le skill, da cancellare. Indice di stato, decisioni e note.
+- projects/progetto-esempio/decisioni/2026-09-25-hosting-su-vps.md: ESEMPIO: il bot del progetto esempio gira su un VPS perché serve un processo sempre attivo per l'invio mattutino. Da cancellare.
+- projects/progetto-esempio/stato.md: Stato corrente di Progetto Esempio: obiettivo, avanzamento, prossimo passo e blocchi. Leggila per prima quando riprendi il progetto.
 - projects/sofia/_index.md: Agente WhatsApp di riattivazione clienti, prodotto di punta. Indice di stato, decisioni e note.
 - projects/sofia/stato.md: Stato corrente di Sofia: obiettivo, avanzamento, prossimo passo e blocchi. Leggila per prima quando riprendi il progetto.
 - projects/the-provenance-letter/_index.md: TODO: descrizione in una frase. Indice di stato, decisioni e note.
@@ -59,6 +64,7 @@
 ## Journal
 
 - journal/_index.md: Note giornaliere e review settimanali.
+- journal/daily/2026-09-25.md: Cosa è cambiato nel vault il 2026-09-25: costruzione del second brain (fasi 1-3) e test delle skill sul progetto esempio.
 - journal/daily/_index.md: Indice delle note giornaliere, una per giornata lavorativa.
 - journal/weekly/_index.md: Indice delle review settimanali, una per settimana ISO.
 

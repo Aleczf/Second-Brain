@@ -18,7 +18,9 @@ Sola lettura: **non modificare nessun file.**
 4. **Note recenti** (escluse `stato.md`, `_index.md` e le ADR già lette), max 3:
    - modifiche non committate: `git status --porcelain -- projects/<slug>/`
    - ultimi 14 giorni: `git log --since="14 days ago" --name-only --format= -- projects/<slug>/ | sort -u`
+   - note in inbox che citano il progetto: `grep -l "projects/<slug>/\|<slug>" inbox/*.md`
    Leggi il `summary`; apri il corpo solo se serve a capire il prossimo passo.
+   Task aperti con `📅` scaduta → segnalali accanto al prossimo passo.
 5. Se `related` punta a clienti o persone, leggi solo il loro `summary`. Mai aprire `private/`.
 
 ## Briefing (massimo 8 righe, in italiano)

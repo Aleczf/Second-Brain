@@ -22,15 +22,16 @@ Inviare un promemoria automatico di prova ogni mattina.
 Il bot gira in locale; nessun ambiente di produzione scelto.
 
 ## Prossimo passo
-- [ ] Scegliere dove ospitare il bot 📅 2026-09-20
-- [ ] Scrivere i test del modulo invio
+- [x] Scegliere dove ospitare il bot 📅 2026-09-20
+- [ ] Scrivere lo script di deploy sul VPS
+- [ ] Scrivere i test del modulo invio 📅 2026-09-22
 
 ## Blocchi e rischi
 TODO:
 
 ## Decisioni recenti
 <!-- Aggiornato dalla skill `decision`: ultime ADR, la più recente in alto. -->
-_Nessuna decisione registrata._
+- 2026-09-25 [[projects/progetto-esempio/decisioni/2026-09-25-hosting-su-vps|Hosting del bot su VPS invece che serverless]] — il bot va su un VPS per avere un processo sempre attivo.
 
 ## Persone e clienti
 TODO:
