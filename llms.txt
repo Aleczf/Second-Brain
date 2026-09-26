@@ -1,0 +1,67 @@
+# Second Brain
+
+> Vault Obsidian di un freelance (AI automation, sviluppo, consulenza per PMI italiane).
+> Una riga per nota: percorso e summary. Parti da HOME.md, poi projects/<slug>/stato.md.
+> Il contenuto di private/ è escluso.
+
+## Radice
+
+- CLAUDE.md: Regole operative per Claude Code e per me: scopo, cartelle, convenzioni, flusso di lettura, comandi. Leggila a inizio sessione.
+- HOME.md: Hub del vault: progetti attivi con lo stato in una riga e accesso a tutte le sezioni. Punto di partenza di ogni sessione.
+
+## Inbox
+
+- inbox/_index.md: Note catturate al volo in attesa di smistamento. Svuotarla nella review settimanale.
+
+## Progetti
+
+- projects/_index.md: Elenco dei progetti con link al loro indice. Per lo stato in una riga vedi HOME.
+- projects/coldreach/_index.md: Sistema di lead-gen via cold email. Indice di stato, decisioni e note.
+- projects/coldreach/stato.md: Stato corrente di coldreach: obiettivo, avanzamento, prossimo passo e blocchi. Leggila per prima quando riprendi il progetto.
+- projects/controllo-costi-fatture-passive/_index.md: Google Apps Script per il controllo costi delle fatture passive; cliente pilota Galeota. Indice di stato, decisioni e note.
+- projects/controllo-costi-fatture-passive/stato.md: Stato corrente di Controllo Costi Fatture Passive: obiettivo, avanzamento, prossimo passo e blocchi. Leggila per prima quando riprendi il progetto.
+- projects/nolo-hub-palatum/_index.md: TODO: descrizione in una frase. Indice di stato, decisioni e note.
+- projects/nolo-hub-palatum/stato.md: Stato corrente di Nolo Hub / Palatum: obiettivo, avanzamento, prossimo passo e blocchi. Leggila per prima quando riprendi il progetto.
+- projects/portfolio-diagnoser/_index.md: TODO: descrizione in una frase. Indice di stato, decisioni e note.
+- projects/portfolio-diagnoser/stato.md: Stato corrente di Portfolio + Diagnoser: obiettivo, avanzamento, prossimo passo e blocchi. Leggila per prima quando riprendi il progetto.
+- projects/prisma/_index.md: Automazione timesheet. Indice di stato, decisioni e note.
+- projects/prisma/stato.md: Stato corrente di Prisma: obiettivo, avanzamento, prossimo passo e blocchi. Leggila per prima quando riprendi il progetto.
+- projects/sofia/_index.md: Agente WhatsApp di riattivazione clienti, prodotto di punta. Indice di stato, decisioni e note.
+- projects/sofia/stato.md: Stato corrente di Sofia: obiettivo, avanzamento, prossimo passo e blocchi. Leggila per prima quando riprendi il progetto.
+- projects/the-provenance-letter/_index.md: TODO: descrizione in una frase. Indice di stato, decisioni e note.
+- projects/the-provenance-letter/stato.md: Stato corrente di The Provenance Letter: obiettivo, avanzamento, prossimo passo e blocchi. Leggila per prima quando riprendi il progetto.
+- projects/wineguard-tech/_index.md: TODO: descrizione in una frase. Indice di stato, decisioni e note.
+- projects/wineguard-tech/stato.md: Stato corrente di WineGuard Tech: obiettivo, avanzamento, prossimo passo e blocchi. Leggila per prima quando riprendi il progetto.
+
+## Aree
+
+- areas/_index.md: Responsabilità continue senza data di fine: business, fiscale, formazione, personale.
+- areas/business.md: Area di responsabilità continua: posizionamento, offerta, pricing, pipeline commerciale. Leggila per standard da mantenere e attività in corso.
+- areas/fiscale-amministrazione.md: Area di responsabilità continua: fatturazione, scadenze fiscali, contabilità, contratti. Leggila per standard da mantenere e attività in corso.
+- areas/formazione.md: Area di responsabilità continua: studio, corsi, competenze da sviluppare. Leggila per standard da mantenere e attività in corso.
+- areas/personale.md: Area di responsabilità continua: salute, abitudini, obiettivi personali. Leggila per standard da mantenere e attività in corso.
+
+## Clienti
+
+- clients/_index.md: Una nota per cliente: contesto, progetti, condizioni non sensibili.
+- clients/galeota.md: Scheda cliente Galeota: contesto, progetti attivi e condizioni. Cliente pilota di Controllo Costi Fatture Passive.
+
+## Persone
+
+- people/_index.md: Una nota per persona: ruolo, relazione, progetti in comune.
+- people/antonino-petralia.md: Scheda di Antonino Petralia: ruolo, relazione e progetti in comune.
+- people/christian-badpug-studio.md: Scheda di Christian (badpug.studio): ruolo, relazione e progetti in comune.
+
+## Risorse
+
+- resources/_index.md: Concetti, appunti tecnici e riferimenti riutilizzabili tra progetti.
+
+## Journal
+
+- journal/_index.md: Note giornaliere e review settimanali.
+- journal/daily/_index.md: Indice delle note giornaliere, una per giornata lavorativa.
+- journal/weekly/_index.md: Indice delle review settimanali, una per settimana ISO.
+
+## Script
+
+- scripts/_index.md: Script Python (solo standard library) per validare il vault e generare gli indici.
